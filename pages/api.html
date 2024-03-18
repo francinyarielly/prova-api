@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API-RECEITAS</title>
+    <link rel="stylesheet" href="../css/api.css">
+    <link rel="stylesheet" href="../pages/index.html">
+    
+</head>
+<div class="cabeçalho">
+    <h1 class="BC">Belle Cuisine</h1>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+
+            <li><a href="./cadastro.html">Cadastro</a></li>
+
+            <li><a href="suporte.html">Suporte</a></li>
+
+            <li><a href="./sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+</div>
+<body>
+    <h1>Qual comida você quer aprender hoje? </h1>
+    <div class="container">
+        <input type="text" id="searchInput" placeholder="escolha sua comida">
+        <select id="select">
+            <option value="1">Biscoitos e Biscoitos</option>
+            <option value="2">Pão</option>
+            <option value="3">Cereais</option>
+            <option value="4">Condimentos e molhos</option>
+            <option value="5">Sobremesas</option>
+            <option value="6">Bebidas</option>
+            <option value="7">Prato Principal</option>
+            <option value="8">panqueca</option>
+            <option value="9">Preps</option>
+            <option value="10">Conserva</option>
+            <option value="11">Salada</option>
+            <option value="12">Sanduíches</option>
+            <option value="13">Acompanhamento</option>
+            <option value="14">Sopa</option>
+            <option value="15">Entrada</option>
+            <option value="16">Doces</option>
+        </select>
+    
+    <button class="btnProcurar" id="btnProcurar">P</button>
+    </div>
+
+    <div id="resultado"></div>
+
+    <script src="../js/api.js"></script>
+    
+</body>
+</html>

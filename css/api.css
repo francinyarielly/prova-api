@@ -1,0 +1,90 @@
+.cabeçalho{
+    background-color: #BBD6C1;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+    height: 150px;
+    
+}
+
+.BC{
+    color: #4F6B42;
+    text-align: left;
+    font-size: larger;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 50px;
+    width: auto;
+    font-size: 50px;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 25px;
+    text-align: left;
+}
+
+a{
+    color: #4F6B42;
+    font-size: 20px;
+}
+
+body{
+    background-color: #e6ece7;
+    margin:0;
+    padding-left: 0;
+}
+
+h1{
+    color: #4F6B42;
+    font-size: larger;
+    font-style: initial;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
+    width: auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+input{
+    font-size: 20px;
+    background-color: #BBD6C1;
+    color: #4F6B42;
+    transform: translate(170%, -50%);
+    border: #4F6B42;
+    box-shadow: 5px 0px 9px #829e76;
+    border: 1px solid rgba(255, 255, 255, .1);
+    padding: 15px 50px 15px 30px;
+    border-radius: 20px;
+    width: 100%t;
+    height: 42px;
+    font-weight: 300;
+    text-align: center;
+}
+
+select{
+    background-color: #BBD6C1;
+    color: #4F6B42;
+    transform: translate(380%, -200%);
+}
+
+button{
+    font-size: 15px;
+    background-color: #BBD6C1;
+    border: #4F6B42;
+    box-shadow: 5px 0px 9px #829e76;
+    width: 20px!important;
+    height: 22px;
+    background: url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat;
+    cursor: pointer!important;
+    border: none;
+    transform: translateY(-50%);
+}
+
+.btnProcurar{
+    transform: translate(1800%, -90%);
+}
+
+      
